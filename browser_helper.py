@@ -22,7 +22,7 @@ class login:
         if self.driver is None:
             self.open()
 
-        time.sleep(5)
+        time.sleep(6)
 
         email_field = self.driver.find_element(By.XPATH, "//*[@type='email']")
         email_field.click()
